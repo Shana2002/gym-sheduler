@@ -244,7 +244,7 @@ class _HomePageState extends State<HomePage> {
 
   Widget _rideButton() {
     return Container(
-      margin: EdgeInsets.only(bottom: _deviceHeight! * 0.01),
+      margin: EdgeInsets.only(bottom: _deviceHeight * 0.01),
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(
