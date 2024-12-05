@@ -58,12 +58,12 @@ class _HomePageState extends State<HomePage> {
       Tab(
           icon: Text(
         "Day 1",
-        style: TextStyle(fontSize: 20, color: Colors.black),
+        style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 255, 255, 255)),
       )),
       Tab(
           icon: Text(
         "Day 2",
-        style: TextStyle(fontSize: 20, color: Colors.black),
+        style: TextStyle(fontSize: 20, color: Color.fromARGB(255, 255, 255, 255)),
       )),
     ]);
   }
